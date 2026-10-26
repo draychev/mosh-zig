@@ -1,0 +1,12 @@
+# Publish only project source, documentation, and tests. Local instructions,
+# credentials, logs, build outputs, and toolchains stay private by default.
+*
+!/.gitignore
+!/README.md
+!/build.zig
+!/build.sh
+!/mosh
+!/src/
+!/src/*.zig
+!/tests/
+!/tests/*.py
